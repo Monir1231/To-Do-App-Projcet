@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+
+
+
+body{
+    background: url('./img/striped-core-butterflies-butterfly-brown-53957.webp');
+   
+}
+
+#btn{
+    background-color: #5cb85c;
+}
+
+ul {
+    list-style-type: none;
+  padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 16px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    text-align: center;
+    
+   
+}
+
+button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 6px 0;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+button.edit-btn {
+    background-color: #5bc0de;
+}
+
+button.edit-btn:hover {
+    background-color: #31b0d5;
+}
